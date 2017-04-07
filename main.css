@@ -1,0 +1,52 @@
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 10 auto;
+  padding: 0;
+}
+
+li {
+    background: #f2f2f2;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #d4d4d4);
+  padding: 15px 5px;
+  text-align: center;
+  color: #000000;
+  font-size: 17px;
+  display: inline-block;
+  width: 18%;
+  }
+
+  a {
+  	text-decoration: none;
+  	color: black;
+  }
+
+li:first-child:hover + .submenu li{
+  visibility: visible;
+
+}
+  .submenu {
+  margin: 0px;
+  padding: 0px;
+  width: 130px;
+  height: 50px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.submenu li{
+  display: block;
+  width: 100%;
+}
